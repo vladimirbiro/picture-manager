@@ -7,6 +7,6 @@
             "email": "vladimir.biro@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {}
 }

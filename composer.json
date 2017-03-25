@@ -1,0 +1,12 @@
+{
+    "name": "vladimirbiro/picture-manager",
+    "description": "Picture manager",
+    "authors": [
+        {
+            "name": "Vladimír Bíro",
+            "email": "vladimir.biro@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

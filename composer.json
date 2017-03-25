@@ -3,5 +3,8 @@
     "description": "Picture manager",
     "require": {
         "php": ">= 5.6"
+    },
+    "autoload": {
+        "files": ["src/PictureManager.php"]
     }
 }

@@ -1,10 +1,10 @@
 <?php
-namespace WK\PictureManager;
+namespace VladimirBiro\Picture;
 
 
 class PictureManager
 {
-    public function test()
+    public function hello()
     {
         return 'Picture Manager Say: Hello world';
     }

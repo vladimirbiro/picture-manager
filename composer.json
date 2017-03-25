@@ -7,11 +7,5 @@
             "email": "vladimir.biro@gmail.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/vladimirbiro/picutre-manager"
-        }
-    ],
     "version": "1.0.0"
 }

@@ -1,5 +1,5 @@
 <?php
-namespace PictureManager;
+namespace WK\PictureManager;
 
 
 class PictureManager

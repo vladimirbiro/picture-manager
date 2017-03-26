@@ -1,6 +1,7 @@
 <?php
 namespace VladimirBiro\TestAplication;
 
+use Nette\Http\FileUpload;
 use VladimirBiro\Picture\PictureManager;
 
 require __DIR__ . '/bootstrap.php';
@@ -19,7 +20,7 @@ $pm->setType([
 if (isset($_POST))
 {
     /** Input */
-    $file = $_FILES['file'];
+    $file = new FileUpload($_FILES['file']);
     $dir = '1';
     $name = 'Product name';
 

@@ -6,7 +6,6 @@ use Nette\Utils\Image;
 use Nette\Utils\Random;
 use Nette\Utils\Json;
 use Nette\Utils\FileSystem;
-use Nette\Http\FileUpload;
 
 
 class PictureManager
@@ -26,12 +25,6 @@ class PictureManager
      */
     public function savePicture($file, $name, $dir)
     {
-        $file = new FileUpload($file);
-
-
-
-
-
         if ($file->isImage() and $file->isOk())
         {
             $end = strtolower(mb_substr($file->getSanitizedName(), strrpos($file->getSanitizedName(), ".")));
@@ -124,7 +117,9 @@ class PictureManager
     }
 
 
-
+    /**
+     * Test function :)
+     */
     public function hello()
     {
         return 'Picture Manager Say: Hello world';
